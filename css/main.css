@@ -20,7 +20,7 @@ body{
     background-size:cover;
     background-repeat:no-repeat;background-color:#000000;
     background-style:flat;
-    background-image: url("/img/spidereye.jpeg");
+    background-image: url("https://benrey.github.io/links/img/spidereye.jpeg");
 }
 .tree {
   margin: 0 auto;
