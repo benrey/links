@@ -1,0 +1,92 @@
+:root{
+    --richBlack:#0B090A;
+    --eerieBlack:#161a1d;
+    --bloodRed: #660708;
+    --rubyRed: #a4161a;
+    --carnelian: #ba181b;
+    --imperialRed: #e5383b;
+    --silverChalice: #b1a7a6;
+    --lightGray: #d3d3d3;
+    --cutltured: #f5f3f4;
+    --white: #ffffff;
+   
+}
+
+body{
+    font-family: 'roboto', bold;
+    color: var(--bloodRed);
+    margin: 4em 2em;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;background-color:#000000;
+    background-style:flat;
+}
+.tree {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+}
+.tree .username {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 2em;
+}
+.tree .links a {
+  margin: 0.75em auto;
+}
+.tree .footer {
+  margin: 2rem;
+}
+.tree .profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+a.btn {
+  background-color: #fff;
+}
+h1{
+    color:var(--richBlack)
+}
+/* navbar */
+.navbar{
+  background: var(--mainWhite);
+  transition:all 2s ease-in-out
+;}
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0,0,0,0.4);
+}
+.navbar-change{
+  position:fixed;
+  width: 100%;
+  padding: 1rem;
+  background: rgba(0,0,0,0.4);
+  z-index: 100;
+
+}
+.navbar-icon{
+  font-size: 2rem;
+  color: var(--mainBlue);
+}
+.navbar-toggler{
+  outline-color: var(--mainBlue)!important;
+}
+.nav-link{
+  color: var(--mainBlack);
+  text-transform: capitalize;
+}
+.nav-link:hover{
+  color: var(--mainBlue);
+}
+.nav-icon{
+  font-size: 1.5rem;
+  color: var(--mainBlue);
+  text-decoration: none!important;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+.nav-icon:hover{
+  color: var(--mainBlack);
+}
