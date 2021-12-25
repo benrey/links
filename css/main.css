@@ -20,7 +20,7 @@ body{
     background-size:cover;
     background-repeat:no-repeat;background-color:#000000;
     background-style:flat;
-    background-image("https://benrey.github.io/links/img/Untitled_Artwork.JPG");
+    background-image: url("https://benrey.github.io/links/img/Untitled_Artwork.JPG");
 }
 .tree {
   margin: 0 auto;
