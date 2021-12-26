@@ -97,5 +97,6 @@ h1{
 }
 .footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--cutltured)
+  color: var(--cutltured);
+  font-size:x-small;
 }
