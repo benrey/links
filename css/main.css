@@ -11,7 +11,10 @@
     --white: #ffffff;
    
 }
-
+.username{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--cutltured)
+}
 body{
     font-family: 'roboto', bold;
     color: var(--bloodRed);
