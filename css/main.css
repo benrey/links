@@ -94,3 +94,7 @@ h1{
 .nav-icon:hover{
   color: var(--mainBlack);
 }
+.footer{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--cutltured)
+}
