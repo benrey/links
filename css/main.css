@@ -17,7 +17,7 @@
 }
 body{
     font-family: 'roboto', bold;
-    color: var(--bloodRed);
+    color: var(--cutltured);
     margin: 4em 2em;
     background-position:center;
     background-size:cover;
@@ -83,6 +83,7 @@ h1{
 .nav-link:hover{
   color: var(--mainBlue);
 }
+
 .nav-icon{
   font-size: 1.5rem;
   color: var(--mainBlue);
