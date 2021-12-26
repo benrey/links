@@ -2,7 +2,14 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-.fa,
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit; 
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+},
 .fas,
 .far,
 .fal,
@@ -4581,6 +4588,7 @@ readers do not read off random characters that represent icons */
   position: static;
   width: auto; }
 @font-face {
+  text-rendering: optimizeLegibility;
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
   font-weight: 400;
@@ -4592,6 +4600,7 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 @font-face {
+  text-rendering: optimizeLegibility;
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
@@ -4603,6 +4612,7 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 @font-face {
+  text-rendering: optimizeLegibility;
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
