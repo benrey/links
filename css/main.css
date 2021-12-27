@@ -85,7 +85,7 @@ h1{
 }
 
 .nav-icons{
-  font-size: .5 rem;
+  font-size: 2.5rem;
   color: var(--mainBlue);
   text-decoration: none!important;
   transition-property: color;
