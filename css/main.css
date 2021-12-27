@@ -17,7 +17,8 @@
 }
 body{
     font-family: 'roboto', bold;
-    color: var(--cutltured);
+    font-size: 1.0em;
+    color: var(--richBlack);
     margin: 4em 2em;
     background-position:center;
     background-size:cover;
@@ -86,7 +87,7 @@ h1{
 }
 
 .nav-icons{
-  color: var(--cutltured);
+  color: var(--richBlack);
   font-size: 1.5em;
 }
 .nav-iconhover{
