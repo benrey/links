@@ -39,7 +39,7 @@ body{
   margin: 2em;
 }
 .tree .links a {
-  margin: 0.75em auto;
+  margin: .25em auto;
 }
 .tree .footer {
   margin: 2rem;
@@ -89,7 +89,8 @@ h1{
 
 .nav-icons{
   color: var(--bloodRed);
-  font-size: 1.5em;
+  padding: .15em;
+  font-size: 2em;
   transition:all 2s ease-in-out;
   transition-delay: 1ms;
   transition-duration: 20ms;
@@ -100,6 +101,6 @@ h1{
 }
 .footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--cutltured);
+  color: var(--bloodRed);
   font-size:x-small;
 }
