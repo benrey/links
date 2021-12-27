@@ -19,8 +19,8 @@ body{
     font-family: 'roboto', bold;
     font-size: 1.0em;
     color: var(--cutltured);
-    margin: 2em 1em;
-    background-position: left;
+    margin: 1em 1em;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;background-color:#000000;
     text-rendering: optimizeLegibility;
@@ -28,23 +28,25 @@ body{
 }
 .tree {
   color: var(--cutltured);
-  margin: 0em;
+  margin: .1em;
   text-align: center;
   width: 100%;
   max-width: 800px;
-  text-transform: uppercase;
-  font-weight: 600;
+  text-transform;
+  font-weight: 500px;
 }
 .username {
   color: var(--bloodRed);
-  padding:1em;
+  padding-right: .1em;
   font-size: 1.5em;
   transition:all 2s ease-in-out;
   transition-delay: 1ms;
   transition-duration: 20ms;
 }
 .tree .links a {
-  margin: .2em auto;
+  margin: .2em;
+  margin-right: 2em;
+  padding: .25em;
 }
 .tree .footer {
   margin: 2rem;
@@ -91,9 +93,13 @@ h1{
 .nav-link:hover{
   color: var(--cutltured);
 }
-
-.nav-icons{
+.icons {
+  margin-top: 2em;
+  padding-right: .1em;
+}
+.icons .nav-icons{
   color: var(--bloodRed);
+  margin:.2em;
   padding: .15em;
   font-size: 2em;
   transition:all 2s ease-in-out;
