@@ -13,7 +13,7 @@
 }
 .username{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--cutltured)
+  color: var(--carnelian)
 }
 body{
     font-family: 'roboto', bold;
@@ -27,6 +27,7 @@ body{
     background-image: url("https://benrey.github.io/links/img/spidereye.jpeg");
 }
 .tree {
+  color: var(--cutltured)
   margin: 0 auto;
   text-align: center;
   width: 100%;
@@ -89,7 +90,7 @@ h1{
 .nav-icons{
   color: var(--bloodRed);
   font-size: 1.5em;
-  transition-delay: 1s;
+  transition-delay: 1ms;
   transition-duration: 20ms;
 }
 .nav-iconhover{
