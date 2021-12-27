@@ -18,7 +18,7 @@
 body{
     font-family: 'roboto', bold;
     font-size: 1.0em;
-    color: var(--richBlack);
+    color: var(--cutltured);
     margin: 4em 2em;
     background-position:center;
     background-size:cover;
@@ -87,11 +87,13 @@ h1{
 }
 
 .nav-icons{
-  color: var(--richBlack);
+  color: var(--bloodRed);
   font-size: 1.5em;
+  transition-delay: 1s;
+  transition-duration: 20ms;
 }
 .nav-iconhover{
-  color: white;
+  color: var(--rubyRed);
 }
 .footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
