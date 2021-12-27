@@ -22,7 +22,7 @@ body{
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;background-color:#000000;
-    background-style:flat;
+    text-rendering: optimizeLegibility;
     background-image: url("https://benrey.github.io/links/img/spidereye.jpeg");
 }
 .tree {
@@ -70,8 +70,9 @@ h1{
 
 }
 .navbar-icon{
+  margin: 0.75em auto;
   font-size: 2rem;
-  color: var(--mainBlue);
+  color: var(--cutltured);
 }
 .navbar-toggler{
   outline-color: var(--mainBlue)!important;
@@ -84,17 +85,12 @@ h1{
   color: var(--mainBlue);
 }
 
-.nav-icon{
-  font-family: 'roboto', bold;
-  font-size: 24px;
+.nav-icons{
   color: var(--cutltured);
-  text-decoration: none!important;
-  transition-property: color;
-  transition-duration: 2s;
-  transition-timing-function: linear;
+  font-size: 1.5em;
 }
 .nav-iconhover{
-  color: var(--mainBlack);
+  color: white;
 }
 .footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
