@@ -84,15 +84,15 @@ h1{
   color: var(--mainBlue);
 }
 
-.nav-icon{
-  font-size: 1.5rem;
+.nav-icons{
+  font-size: .5 rem;
   color: var(--mainBlue);
   text-decoration: none!important;
   transition-property: color;
   transition-duration: 2s;
   transition-timing-function: linear;
 }
-.nav-icon:hover{
+.nav-iconshover{
   color: var(--mainBlack);
 }
 .footer{
