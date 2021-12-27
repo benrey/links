@@ -84,15 +84,16 @@ h1{
   color: var(--mainBlue);
 }
 
-.nav-icons{
-  font-size: 2.5rem;
-  color: var(--mainBlue);
+.nav-icon{
+  font-family: 'roboto', bold;
+  font-size: 24px;
+  color: var(--cutltured);
   text-decoration: none!important;
   transition-property: color;
   transition-duration: 2s;
   transition-timing-function: linear;
 }
-.nav-iconshover{
+.nav-iconhover{
   color: var(--mainBlack);
 }
 .footer{
