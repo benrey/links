@@ -43,10 +43,9 @@ body{
   transition-delay: 1ms;
   transition-duration: 20ms;
 }
-.tree .links a {
-  margin: .2em;
-  margin-right: 2em;
-  padding: .25em;
+.tree .links {
+  margin: .1m;
+  padding: 3em;
 }
 .tree .footer {
   margin: 2rem;
@@ -56,12 +55,23 @@ body{
   border-radius: 50%;
   text-align: center;
 }
-a.btn {
+.btn {
   background-color: var(--lightGray);
+  border: 1px solid transparent;
   -webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow:    5px 5px 0px rgba(0, 0, 0, 0.3);
   box-shadow:         5px 5px 0px rgba(0, 0, 0, 0.3);
 }
+.btn:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.btn:active {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
 h1{
     color:var(--richBlack)
 }
