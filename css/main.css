@@ -19,12 +19,20 @@ body{
     font-family: 'roboto', bold;
     font-size: 1.0em;
     color: var(--cutltured);
-    margin: 1em 1em;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;background-color:#000000;
     text-rendering: optimizeLegibility;
-    background-image: url("https://benrey.github.io/links/img/spidereye.jpeg");
+    background: url("https://benrey.github.io/links/img/spidereye.jpeg") no-repeat fixed; 
+    background-position: 0% 55%;
+    overflow-x:hidden;
+    background-attachment: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*-o-transition-property: none !important;
+    background-repeat: no-repeat;background-color:#000000;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;*/
 }
 .tree {
   color: var(--cutltured);
@@ -46,6 +54,7 @@ body{
 .tree .links {
   margin: .1m;
   padding: 3em;
+  background-position: fixed;
 }
 .tree .footer {
   margin: 2rem;
