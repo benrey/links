@@ -36,30 +36,37 @@ body{
 }
 .tree {
   color: var(--cutltured);
-  margin: .1em;
+  margin-top: 30px;
+  margin-bottom:5px;
   text-align: center;
   width: 100%;
   max-width: 800px;
   text-transform;
   font-weight: 500px;
 }
-.username {
+.whoiam {
   color: var(--bloodRed);
+  margin-bottom: 5px;
   padding-right: .1em;
   font-size: 1.5em;
   transition:all 2s ease-in-out;
   transition-delay: 1ms;
   transition-duration: 20ms;
 }
-.tree .links {
-  margin: .1m;
-  padding: 3em;
-  background-position: fixed;
+.links {
+  width:100%;
+  min-height:49px;
+  height:40%;
+  max-height:10px;
+  overflow:hidden;
+  display:inline-block;
 }
 .tree .footer {
   margin: 2rem;
 }
 .tree .profile-pic {
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 150px;
   border-radius: 50%;
   text-align: center;
@@ -72,13 +79,17 @@ body{
   box-shadow:         5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 .btn:hover {
+  transition-delay: 10ms;
+    -webkit-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-}
-.btn:active {
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 7px;
 }
 
 h1{
@@ -116,6 +127,7 @@ h1{
   color: var(--cutltured);
 }
 .icons {
+  
   margin-top: 2em;
   margin: .2em;
   padding-right: .1em;
