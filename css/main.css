@@ -58,6 +58,9 @@ body{
 }
 a.btn {
   background-color: var(--lightGray);
+  -webkit-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:    3px 3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow:         3px 3px 0px rgba(0, 0, 0, 0.3);
 }
 h1{
     color:var(--richBlack)
@@ -106,7 +109,6 @@ h1{
   transition:all 2s ease-in-out;
   transition-delay: 1ms;
   transition-duration: 20ms;
-  
 }
 .nav-icons:hover{
   color: var(--cutltured);
