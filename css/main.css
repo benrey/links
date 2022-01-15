@@ -107,7 +107,8 @@ body{
 }
 .btn {
   background-color: var(--white);
-  border: none;
+  padding: .2em .2em .2em .2em;
+  border-radius: .2em;
   color:#000000;
   -webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow:    5px 5px 0px rgba(0, 0, 0, 0.3);
@@ -115,6 +116,7 @@ body{
 }
 .btn:hover {
     background-color: var(--cutltured);
+    border-radius: .25rem;
     border: none;
     outline: none;
     color: #161a1d;
