@@ -53,8 +53,8 @@ body{
   
   
     @keyframes slideShow{
-      0% {
-        background-image: url("/img/angelina.png"), url ("/img/money.png")
+      1% {
+        background-image: url("/img/angelina.png"), url("/img/money.png")
       }
       25% {
         background-image: url("/img/money.png"), url("/img/noway.jpg")
@@ -62,7 +62,7 @@ body{
       50%{
         background-image: url("/img/noway.jpg"), url("/img/angelina.png")
       }
-      100%{
+      99%{
         background-image: url("/img/angelina.png"), url("/img/angelina.png")
       }
     }
