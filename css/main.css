@@ -127,7 +127,8 @@ body{
 }
 .btn:hover {
     background-color: var(--cutltured);
-    outline:#161a1d;
+    border: none;
+    outline: none;
     color: #161a1d;
     -webkit-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
@@ -135,7 +136,9 @@ body{
 }
 .btn:active {
   background-color: var(--cultured);
-  outline: #161a1d;
+  border: none;
+  outline: none;
+  box-shadow: none;
   color: #161a1d;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
