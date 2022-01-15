@@ -47,35 +47,23 @@ body{
   -o-animation: slideShow 30s linear infinite;
   animation: slideShow 30s linear infinite;
   animation-timing-function: ease-in-out;
-  background-image: url("/img/DSC05669-Edit.jpeg");
+  background-image: url("/img/angelina.png");
   
   }
   
   
     @keyframes slideShow{
       0% {
-        background-image: url("/img/DSC05669-Edit.jpeg"), url ("/img/DSC0109-Edit.jpeg")
+        background-image: url("/img/angelina.png"), url ("/img/money.png")
       }
-      20% {
-        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
-      }
-      30%{
-        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
-      }
-      40%{
-        background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
+      25% {
+        background-image: url("/img/money.png"), url("/img/noway.jpg")
       }
       50%{
-        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC_0109-Edit.jpeg")
-      }
-      60%{
-        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
-      }
-      70%{
-        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
+        background-image: url("/img/noway.jpg"), url("/img/angelina.png")
       }
       100%{
-        background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
+        background-image: url("/img/angelina.png"), url("/img/angelina.png")
       }
     }
   
