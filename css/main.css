@@ -88,9 +88,7 @@ body{
   transition-duration: 20ms;
 }
 .links {
-  justify-content: center;
-  align-items: center;
-  margin: .2em;
+  margin: 2px 2px 2px 0px;
   padding: .2em;
   width:100%;
   min-height:49px;
@@ -108,7 +106,10 @@ body{
   text-align: center;
 }
 .btn {
-  margin: 1em;
+  justify-content: center;
+  align-items: left;
+  margin: .1em;
+  margin-right: 20px;
   text-decoration: none;
   background-color: var(--white);
   padding: .3em;
