@@ -1,11 +1,11 @@
 :root{
+    --darkblack:#000000;
     --richBlack:#0B090A;
     --eerieBlack:#161a1d;
     --bloodRed: #660708;
     --rubyRed: #a4161a;
     --carnelian: #ba181b;
     --imperialRed: #e5383b;
-    --silverChalice: #b1a7a6;
     --lightGray: #d3d3d3;
     --cutltured: #f5f3f4;
     --white: #ffffff;
@@ -13,39 +13,85 @@
 }
 .username{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--carnelian)
+  color: var(--cultured)
 }
+
 body{
-    font-family: 'roboto', bold;
-    font-size: 1.0em;
-    color: var(--cutltured);
-    text-rendering: optimizeLegibility;
-    background: url("https://benrey.github.io/links/img/spidereye.jpeg") no-repeat fixed; 
-    background-position: 0% 55%;
-    overflow-x:hidden;
-    background-attachment: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /*-o-transition-property: none !important;
-    background-repeat: no-repeat;background-color:#000000;
-    -moz-transition-property: none !important;
-    -ms-transition-property: none !important;
-    -webkit-transition-property: none !important;*/
-}
-.tree {
+  overflow-x:hidden;
+  font-family:Verdana, Tahoma, sans-serif;
   color: var(--cutltured);
+  font-size: 1.5em;
+  text-rendering: optimizeLegibility;
+  margin:0px;
+  padding:0px;
+  width: 100%;
+  height: 100vh;
+}
+
+#slideShow{
+  overflow-x:hidden;
+  background-attachment: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width:100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: slideShow 30s linear infinite;
+  -moz-animation: slideShow 30s linear infinite;
+  -o-animation: slideShow 30s linear infinite;
+  animation: slideShow 30s linear infinite;
+  animation-timing-function: ease-in-out;
+  background-image: url("/img/DSC05669-Edit.jpeg");
+  
+  }
+  
+  
+    @keyframes slideShow{
+      0% {
+        background-image: url("/img/DSC05669-Edit.jpeg"), url ("/img/DSC0109-Edit.jpeg")
+      }
+      20% {
+        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
+      }
+      30%{
+        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
+      }
+      40%{
+        background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
+      }
+      50%{
+        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC_0109-Edit.jpeg")
+      }
+      60%{
+        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
+      }
+      70%{
+        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
+      }
+      100%{
+        background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
+      }
+    }
+  
+
+.tree {
+  color: var(--cultured);
   margin-top: 30px;
   margin-bottom:5px;
   text-align: center;
   width: 100%;
-  max-width: 800px;
+  max-width: auto;
   text-transform;
   font-weight: 500px;
 }
 .whoiam {
-  color: var(--bloodRed);
+  color: var(--cultured);
   margin-bottom: 5px;
   padding-right: .1em;
   font-size: 1.5em;
@@ -72,18 +118,25 @@ body{
   text-align: center;
 }
 .btn {
-  background-color: var(--cutltured);
-  border: 1px solid transparent;
+  background-color: var(--white);
+  border: none;
+  color:#000000;
   -webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow:    5px 5px 0px rgba(0, 0, 0, 0.3);
   box-shadow:         5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 .btn:hover {
+    background-color: var(--cutltured);
+    outline:#161a1d;
+    color: #161a1d;
     -webkit-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
 }
 .btn:active {
+  background-color: var(--cultured);
+  outline: #161a1d;
+  color: #161a1d;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -92,7 +145,7 @@ body{
 }
 
 h1{
-    color:var(--richBlack)
+    color:var(--cultured)
 }
 /* navbar */
 .navbar{
@@ -132,7 +185,7 @@ h1{
   padding-right: .1em;
 }
 .icons .nav-icons{
-  color: var(--bloodRed);
+  color: var(--cultured);
   margin: 0em;
   padding: .15em;
   font-size: 2em;
@@ -145,6 +198,6 @@ h1{
 }
 .footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--bloodRed);
+  color: var(--cultured);
   font-size:x-small;
 }
