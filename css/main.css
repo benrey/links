@@ -202,15 +202,10 @@ h1{
   filter: drop-shadow(-.05em -0.1rem 0.05em rgba(20, 99, 99, 1)) drop-shadow(0.05em 0.1rem 0.05em rgba(220, 39, 67, 0.9));
 }
 
-.fa-instagram {
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  border-radius: 10px;
-  background-size: 35px 35px;
-  background-repeat: no-repeat;
-  background-position: center center;
+.radial svg * {
+  fill:url(#rg);
 }
+
 .fa-facebook {
   color:#4267B2;
 }
